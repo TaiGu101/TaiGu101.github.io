@@ -57,13 +57,13 @@
 <header class="header">
 
 <div class="logo-wrap"><a class="title" href="/"><div class="main">台股通識課</div></a></div>
-<nav class="menu dis-select"></nav></header>
+<nav class="menu dis-select"><a class="nav-item active" href="/">網誌</a><a class="nav-item" href="/wiki/">Wiki</a><a class="nav-item" href="/about/">關於本站</a></nav></header>
 
 <div class="widgets">
-<div class="widget-wrap" id="markdown"><div class="widget-header cap dis-select"><span class="name">Stellar 入门指南</span></div><div class="widget-body fs14"><p>欢迎使用 <a target="_blank" rel="noopener" href="https://github.com/xaoxuu/hexo-theme-stellar/">Stellar</a> 主题，下面是您的入门指南，祝您使用愉快！<br><br><br><strong>第一步</strong><br>创建 <code>blog/_config.stellar.yml</code> 文件，在此文件中填写需要自定义的主题配置。<br><br><br><strong>第二步</strong><br>创建 <code>blog/source/_data/widgets.yml</code> 文件，此文件中填写需要自定义的侧边栏组件，例如 <code>welcome</code> 组件。<br><br><br>如果有任何疑问，请先查阅<a target="_blank" rel="noopener" href="https://xaoxuu.com/wiki/stellar/">文档</a>，如果文档中没有提供，请提 <a target="_blank" rel="noopener" href="https://github.com/xaoxuu/hexo-theme-stellar/issues/">issue</a> 向开发中询问。</p>
+<div class="widget-wrap" id="markdown"><div class="widget-header cap dis-select"><span class="name">歡迎</span></div><div class="widget-body fs14"><p>歡迎來到 <a target="_blank" rel="noopener" href="https://taigu101lesson.github.io/">台股通識課</a> ，祝旗開得勝！</p>
 </div></div>
 
-<div class="widget-wrap" id="recent"><div class="widget-header cap dis-select"><span class="name">最近更新</span></div><div class="widget-body fs14"><div class="more-item"><a class="title" href="/2022/07/23/hello-world/">Hello World</a></div></div></div>
+<div class="widget-wrap" id="recent"><div class="widget-header cap dis-select"><span class="name">最近更新</span></div><div class="widget-body fs14"><div class="more-item"><a class="title" href="/2022/07/23/hello-world/">Hello World</a></div><div class="more-item"><a class="title" href="/2022/07/23/hello-world%E6%8B%B7%E8%B2%9D/">Hello World</a></div><div class="more-item"><a class="title" href="/2022/07/17/%E7%BE%8E%E8%82%A1ETF-%E8%A4%87%E5%A7%94%E8%A8%97-2022%E6%9C%80%E4%BD%8E%E6%89%8B%E7%BA%8C%E8%B2%BB%E9%81%B8%E6%93%87/">2022 最適合小額投入的美股 ETF 複委託方案</a></div></div></div>
 </div>
 
 
@@ -88,6 +88,14 @@
       <a href='/'>近期發布</a>
     
     
+      
+        <a href='/categories'>分類</a>
+      
+    
+    
+      
+        <a href='/tags'>標籤</a>
+      
     
     
       
@@ -105,10 +113,20 @@
   			
   		
   	
+  		
+  		
+  	
+  		
+  		
+  	
   	
   		<article class='' id='archive'>
   			<div class='archive-header h4'>2022</div>
   			
+  				
+  		    
+  				
+  		    
   				
   		    
   				<div class='archive-list'>
@@ -117,6 +135,28 @@
     					<span>
                 
       						Hello World
+      					
+              </span>
+    				</a>
+          </div>
+  			
+  				<div class='archive-list'>
+            <a class='post fs14' href="/2022/07/23/hello-world%E6%8B%B7%E8%B2%9D/">
+    					<time>07-23</time>
+    					<span>
+                
+      						Hello World
+      					
+              </span>
+    				</a>
+          </div>
+  			
+  				<div class='archive-list'>
+            <a class='post fs14' href="/2022/07/17/%E7%BE%8E%E8%82%A1ETF-%E8%A4%87%E5%A7%94%E8%A8%97-2022%E6%9C%80%E4%BD%8E%E6%89%8B%E7%BA%8C%E8%B2%BB%E9%81%B8%E6%93%87/">
+    					<time>07-17</time>
+    					<span>
+                
+      						2022 最適合小額投入的美股 ETF 複委託方案
       					
               </span>
     				</a>
@@ -267,8 +307,8 @@
   if ('true' == 'true') {
     stellar.plugins.fancybox = Object.assign({"enable":true,"js":"https://fastly.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js","css":"https://fastly.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css","selector":".swiper-slide img"});
   }
-  if ('false' == 'true') {
-    stellar.plugins.heti = Object.assign({"enable":false,"css":"https://unpkg.com/heti/umd/heti.min.css","js":"https://unpkg.com/heti/umd/heti-addon.min.js"});
+  if ('true' == 'true') {
+    stellar.plugins.heti = Object.assign({"enable":true,"css":"https://unpkg.com/heti/umd/heti.min.css","js":"https://unpkg.com/heti/umd/heti-addon.min.js"});
   }
 </script>
 
